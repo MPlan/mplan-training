@@ -5,14 +5,24 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "html-css": "http-server ./html-css/"
+    "html-css": "http-server ./html-css/",
+    "start": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.2.0"
+    "@types/react": "^16.0.38",
+    "@types/react-dom": "^16.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "recordize": "^0.1.0",
+    "styled-components": "^3.1.6"
   },
   "devDependencies": {
-    "http-server": "^0.11.1"
+    "awesome-typescript-loader": "^3.4.1",
+    "http-server": "^0.11.1",
+    "typescript": "^2.7.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
   }
 }
