@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <style>
+        .phone-container {
+            background-color: black;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .phone {
+            background-color: blue;
+            height: 30rem;
+            width: 24rem;
+            border-style: solid;
+            border-color: white;
+            border-width: 2px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .status-bar {
+            background-color: silver;
+            height: 1rem;
+        }
+
+        .phone-body {
+            background-color: black;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+
+        }
+
+        .dock {
+            background-color: grey;
+            height: 3rem;
+        }
+
+        .apps {
+            display: flex;
+            flex-grow: 1;
+            justify-content: space-between;
+        }
+
+        .app {
+            background-color: white;
+            /* padding: 1rem; */
+            width: 3rem;
+            height: 3rem;
+            margin: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="phone-container">
+        <div class="phone">
+            <div class="status-bar"></div>
+            <div class="phone-body">
+                <div class="apps">
+                    <div class="app"></div>
+                    <div class="app"></div>
+                    <div class="app"></div>
+                    <div class="app"></div>
+                </div>
+                <div class="apps">
+                    <div class="app"></div>
+                    <div class="app"></div>
+                    <div class="app"></div>
+                    <div class="app"></div>
+                </div>
+                <div class="apps">
+                    <div class="app"></div>
+                    <div class="app"></div>
+                    <div class="app"></div>
+                    <div class="app"></div>
+                </div>
+                <div class="apps">
+                    <div class="app"></div>
+                    <div class="app"></div>
+                    <div class="app"></div>
+                    <div class="app"></div>
+                </div>
+            </div>
+
+            <div class="dock"></div>
+        </div>
+    </div>
+</body>
+
+</html>
